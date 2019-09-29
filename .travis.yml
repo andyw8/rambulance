@@ -10,19 +10,19 @@ before_install:
   - gem install bundler
 
 rvm:
-  - 2.3.8
-  - 2.4.6
+  #- 2.3.8
+  #- 2.4.6
   - 2.5.5
   - 2.6.3
-  - ruby-head
-  - jruby-9.2.7.0
-  - jruby-head
+  #- ruby-head
+  #- jruby-9.2.7.0
+  #- jruby-head
 
 gemfile:
-  - gemfiles/rails_42.gemfile
-  - gemfiles/rails_50.gemfile
-  - gemfiles/rails_51.gemfile
-  - gemfiles/rails_52.gemfile
+  #- gemfiles/rails_42.gemfile
+  #- gemfiles/rails_50.gemfile
+  #- gemfiles/rails_51.gemfile
+  #- gemfiles/rails_52.gemfile
   - gemfiles/rails_60.gemfile
   - gemfiles/rails_edge.gemfile
 
